@@ -1,0 +1,15 @@
+# Deribit API 凭证
+# 从 Deribit 账户设置中获取 Client ID 和 Client Secret
+# 需要开通读取期权持仓和 Greeks 的权限
+DERIBIT_CLIENT_ID=your_client_id_here
+DERIBIT_CLIENT_SECRET=your_client_secret_here
+
+# Deribit API 基础 URL（可选，默认使用 config.yaml 中的配置）
+# 生产环境: https://www.deribit.com
+# 测试环境: https://test.deribit.com
+# DERIBIT_BASE_URL=https://www.deribit.com
+
+# 飞书 Webhook URL
+# 从飞书群聊中创建自定义机器人，获取 Webhook URL
+FEISHU_WEBHOOK_URL=https://open.feishu.cn/open-apis/bot/v2/hook/your_webhook_token_here
+

@@ -1,0 +1,573 @@
+{
+  "BTC_USDC-23NOV25-81000-P": {
+    "latest": {
+      "value": {
+        "gamma": 1.4e-05,
+        "vega": 4.031016,
+        "delta": 0.05378,
+        "direction": "sell",
+        "size": 0.2
+      },
+      "timestamp": 1763716218.9838345
+    },
+    "history": [
+      {
+        "value": {
+          "gamma": 7e-05,
+          "vega": 19.448,
+          "delta": 0.04865,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763712641.5023725
+      },
+      {
+        "value": {
+          "gamma": 6e-05,
+          "vega": 18.72382,
+          "delta": 0.04513,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763712709.6962523
+      },
+      {
+        "value": {
+          "gamma": 1.2e-05,
+          "vega": 3.7208520000000003,
+          "delta": 0.04457,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763712860.3868403
+      },
+      {
+        "value": {
+          "gamma": 1.2e-05,
+          "vega": 3.718338,
+          "delta": 0.04458,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763712925.4422505
+      },
+      {
+        "value": {
+          "gamma": 1.2e-05,
+          "vega": 3.632122,
+          "delta": 0.04277,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763712991.034409
+      },
+      {
+        "value": {
+          "gamma": 1.2e-05,
+          "vega": 3.668146,
+          "delta": 0.04341,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713057.6497567
+      },
+      {
+        "value": {
+          "gamma": 1.2e-05,
+          "vega": 3.7257420000000003,
+          "delta": 0.04466,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713123.1627018
+      },
+      {
+        "value": {
+          "gamma": 1.2e-05,
+          "vega": 3.770424,
+          "delta": 0.04571,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713200.8711677
+      },
+      {
+        "value": {
+          "gamma": 1.2e-05,
+          "vega": 3.700994,
+          "delta": 0.0444,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713266.4256635
+      },
+      {
+        "value": {
+          "gamma": 1.2e-05,
+          "vega": 3.7263680000000003,
+          "delta": 0.04487,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713332.158377
+      },
+      {
+        "value": {
+          "gamma": 1.2e-05,
+          "vega": 3.7354380000000003,
+          "delta": 0.04512,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713397.0077655
+      },
+      {
+        "value": {
+          "gamma": 1.2e-05,
+          "vega": 3.6606340000000004,
+          "delta": 0.04344,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713463.2467427
+      },
+      {
+        "value": {
+          "gamma": 1.2e-05,
+          "vega": 3.7346559999999998,
+          "delta": 0.04489,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713528.8147192
+      },
+      {
+        "value": {
+          "gamma": 1.4e-05,
+          "vega": 3.8026600000000004,
+          "delta": 0.04658,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713595.2494588
+      },
+      {
+        "value": {
+          "gamma": 1.4e-05,
+          "vega": 3.764908,
+          "delta": 0.04592,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713661.0019124
+      },
+      {
+        "value": {
+          "gamma": 1.4e-05,
+          "vega": 3.785138,
+          "delta": 0.04646,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713727.2137616
+      },
+      {
+        "value": {
+          "gamma": 1.4e-05,
+          "vega": 3.8393960000000003,
+          "delta": 0.04765,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713792.8467278
+      },
+      {
+        "value": {
+          "gamma": 1.4e-05,
+          "vega": 3.804434,
+          "delta": 0.04665,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713859.1594138
+      },
+      {
+        "value": {
+          "gamma": 1.4e-05,
+          "vega": 3.7392000000000003,
+          "delta": 0.0453,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713924.9109294
+      },
+      {
+        "value": {
+          "gamma": 1.4e-05,
+          "vega": 3.7185200000000003,
+          "delta": 0.04484,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713990.5223885
+      },
+      {
+        "value": {
+          "gamma": 1.4e-05,
+          "vega": 3.923948,
+          "delta": 0.0504,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763715836.5252485
+      },
+      {
+        "value": {
+          "gamma": 1.4e-05,
+          "vega": 4.031016,
+          "delta": 0.05378,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763716218.9838345
+      }
+    ]
+  },
+  "BTC_USDC-28NOV25-80000-P": {
+    "latest": {
+      "value": {
+        "gamma": 1e-05,
+        "vega": 7.920442,
+        "delta": 0.05835,
+        "direction": "sell",
+        "size": 0.2
+      },
+      "timestamp": 1763716218.9838345
+    },
+    "history": [
+      {
+        "value": {
+          "gamma": 4e-05,
+          "vega": 38.93056,
+          "delta": 0.0554,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763712641.5023725
+      },
+      {
+        "value": {
+          "gamma": 4e-05,
+          "vega": 38.22944,
+          "delta": 0.05299,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763712709.6962523
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.621544,
+          "delta": 0.0526,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763712860.3868403
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.615038,
+          "delta": 0.05254,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763712925.4422505
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.505566000000001,
+          "delta": 0.05103,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763712991.034409
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.548770000000001,
+          "delta": 0.05162,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713057.6497567
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.602513999999999,
+          "delta": 0.05229,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713123.1627018
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.675186,
+          "delta": 0.05308,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713200.8711677
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.560584,
+          "delta": 0.05206,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713266.4256635
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.598188,
+          "delta": 0.05236,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713332.158377
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.610274,
+          "delta": 0.05244,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713397.0077655
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.512734000000001,
+          "delta": 0.05124,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713463.2467427
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.602868,
+          "delta": 0.05215,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713528.8147192
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.670708000000001,
+          "delta": 0.0535,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713595.2494588
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.634206000000001,
+          "delta": 0.05305,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713661.0019124
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.657574,
+          "delta": 0.05347,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713727.2137616
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.70242,
+          "delta": 0.05426,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713792.8467278
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.68283,
+          "delta": 0.05367,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713859.1594138
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.6249780000000005,
+          "delta": 0.05282,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713924.9109294
+      },
+      {
+        "value": {
+          "gamma": 8.000000000000001e-06,
+          "vega": 7.613048000000001,
+          "delta": 0.05239,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763713990.5223885
+      },
+      {
+        "value": {
+          "gamma": 1e-05,
+          "vega": 7.808086,
+          "delta": 0.05633,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763715836.5252485
+      },
+      {
+        "value": {
+          "gamma": 1e-05,
+          "vega": 7.920442,
+          "delta": 0.05835,
+          "direction": "sell",
+          "size": 0.2
+        },
+        "timestamp": 1763716218.9838345
+      }
+    ]
+  },
+  "dvol": {
+    "latest": {
+      "value": 58.2,
+      "timestamp": 1763716218.9838345
+    },
+    "history": [
+      {
+        "value": 57.95,
+        "timestamp": 1763712641.5023725
+      },
+      {
+        "value": 57.69,
+        "timestamp": 1763712709.6962523
+      },
+      {
+        "value": 57.28,
+        "timestamp": 1763712860.3868403
+      },
+      {
+        "value": 57.39,
+        "timestamp": 1763712925.4422505
+      },
+      {
+        "value": 57.26,
+        "timestamp": 1763712991.034409
+      },
+      {
+        "value": 57.2,
+        "timestamp": 1763713057.6497567
+      },
+      {
+        "value": 57.2,
+        "timestamp": 1763713123.1627018
+      },
+      {
+        "value": 57.31,
+        "timestamp": 1763713200.8711677
+      },
+      {
+        "value": 57.21,
+        "timestamp": 1763713266.4256635
+      },
+      {
+        "value": 57.03,
+        "timestamp": 1763713332.158377
+      },
+      {
+        "value": 56.94,
+        "timestamp": 1763713397.0077655
+      },
+      {
+        "value": 56.87,
+        "timestamp": 1763713463.2467427
+      },
+      {
+        "value": 56.82,
+        "timestamp": 1763713528.8147192
+      },
+      {
+        "value": 56.87,
+        "timestamp": 1763713595.2494588
+      },
+      {
+        "value": 56.94,
+        "timestamp": 1763713661.0019124
+      },
+      {
+        "value": 57.03,
+        "timestamp": 1763713727.2137616
+      },
+      {
+        "value": 57.21,
+        "timestamp": 1763713792.8467278
+      },
+      {
+        "value": 57.31,
+        "timestamp": 1763713859.1594138
+      },
+      {
+        "value": 57.39,
+        "timestamp": 1763713924.9109294
+      },
+      {
+        "value": 57.44,
+        "timestamp": 1763713990.5223885
+      },
+      {
+        "value": 57.26,
+        "timestamp": 1763715836.5252485
+      },
+      {
+        "value": 58.2,
+        "timestamp": 1763716218.9838345
+      }
+    ]
+  },
+  "last_alert_times": {
+    "dvol_change": 1763713792.8467278,
+    "BTC_USDC-23NOV25-81000-P_gamma_change": 1763712032.102271,
+    "BTC_USDC-23NOV25-81000-P_vega_level_轻度": 1763712641.5023725,
+    "BTC_USDC-28NOV25-80000-P_gamma_change": 1763712032.102271,
+    "BTC_USDC-28NOV25-80000-P_vega_level_中度": 1763712641.5023725
+  }
+}

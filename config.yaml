@@ -1,0 +1,62 @@
+# Deribit BTC 期权和 DVOL 监控系统配置文件
+
+# 通用配置
+general:
+  # 轮询间隔（秒）
+  poll_interval_seconds: 60
+  # 日志级别: DEBUG, INFO, WARNING, ERROR
+  log_level: INFO
+
+# Deribit 相关配置
+deribit:
+  # API 基础 URL（可以从环境变量 DERIBIT_BASE_URL 覆盖）
+  # 生产环境: https://www.deribit.com
+  # 测试环境: https://test.deribit.com
+  base_url: https://www.deribit.com
+  # 监控标的（BTC 或 ETH）
+  underlying: BTC
+  # 直接获取所有持仓，不需要过滤
+  # 期权过滤条件
+  option_filters:
+    currency: BTC
+    kind: option
+    # 只监控有效持仓（size != 0）
+    only_active_positions: true
+
+# 账户期权 Greeks 监控阈值（监控 Gamma 和 Vega）
+option_greeks_thresholds:
+  # Gamma 分阶段预警阈值（单个合约 Gamma 绝对值）
+  gamma:
+    # 轻度预警：当单个合约 Gamma 绝对值达到此值时触发轻度预警
+    level_1_light: 0.0001
+    # 中度预警：当单个合约 Gamma 绝对值达到此值时触发中度预警
+    level_2_medium: 0.0005
+    # 重度预警：当单个合约 Gamma 绝对值达到此值时触发重度预警
+    level_3_heavy: 0.001
+  # Vega 分阶段预警阈值（持仓 Vega 绝对值，总持仓 Vega）
+  vega:
+    # 轻度预警：当持仓 Vega 绝对值达到此值时触发轻度预警
+    level_1_light: 10.0
+    # 中度预警：当持仓 Vega 绝对值达到此值时触发中度预警
+    level_2_medium: 30.0
+    # 重度预警：当持仓 Vega 绝对值达到此值时触发重度预警
+    level_3_heavy: 50.0
+
+# DVOL (Volatility Index) 监控阈值
+dvol_thresholds:
+  # DVOL 数值异动阈值
+  dvol_value:
+    # 当 DVOL 达到此绝对数值时触发预警
+    abs_threshold: 60.0
+    # 5 分钟内 DVOL 变动超过此百分比时触发告警（例如 0.05 = 5%）
+    pct_change_5m: 0.005
+    # 5 分钟内 DVOL 绝对变动超过此值时触发告警（例如 5 = 5 点）
+    abs_change_5m: 0.2
+
+# 告警相关配置
+alert:
+  # 是否启用告警
+  enable_alert: true
+  # 告警冷却时间（秒）- 同一类型的告警在 N 秒内只发送一次
+  cooldown_seconds: 300
+
