@@ -52,6 +52,11 @@ dvol_thresholds:
     pct_change_5m: 0.005
     # 5 分钟内 DVOL 绝对变动超过此值时触发告警（例如 5 = 5 点）
     abs_change_5m: 0.2
+    # 需要预警的特定 DVOL 值列表（当 DVOL 接近这些值时触发预警）
+    # 容差范围：±0.5（例如 62 表示 61.5-62.5 范围内都会触发）
+    specific_values: [62, 64, 65, 66, 67, 68, 69, 70]
+    # 特定值预警的容差（默认 0.5，即 ±0.5）
+    specific_value_tolerance: 0.5
 
 # 告警相关配置
 alert:

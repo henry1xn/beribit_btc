@@ -368,6 +368,48 @@ class Monitor:
         # 检查5分钟变化预警
         should_alert_change = (abs(pct_change) > pct_threshold) or (abs(abs_change) > abs_change_threshold)
         
+        # 检查特定 DVOL 值预警
+        specific_values = dvol_value_thresholds.get("specific_values", [])
+        specific_tolerance = dvol_value_thresholds.get("specific_value_tolerance", 0.5)
+        matched_specific_value = None
+        
+        for target_value in specific_values:
+            if abs(current_dvol - target_value) <= specific_tolerance:
+                matched_specific_value = target_value
+                break
+        
+        # 特定值预警（优先检查）
+        if matched_specific_value is not None:
+            alert_key = f"dvol_specific_{matched_specific_value}"
+            
+            if self._should_alert(alert_key, current_time):
+                if self.enable_alert:
+                    title = f"🚨 DVOL 特定值预警 - {matched_specific_value}"
+                    message = (
+                        f"DVOL 当前值: {current_dvol:.2f}\n"
+                        f"预警目标值: {matched_specific_value}\n"
+                        f"容差范围: {matched_specific_value - specific_tolerance:.2f} ~ {matched_specific_value + specific_tolerance:.2f}\n"
+                        f"5分钟前: {previous_dvol:.2f}\n"
+                        f"⚠️ DVOL 已达到预警值 {matched_specific_value}！"
+                    )
+                    
+                    detail = {
+                        "当前 DVOL": f"{current_dvol:.2f}",
+                        "预警目标值": f"{matched_specific_value}",
+                        "容差范围": f"±{specific_tolerance:.2f}"
+                    }
+                    
+                    success = send_feishu_alert(
+                        title=title,
+                        message=message,
+                        webhook_url=self.feishu_webhook_url,
+                        detail=detail
+                    )
+                    
+                    if success:
+                        self.state_store.set_last_alert_time(alert_key, current_time)
+                        logger.warning(f"DVOL 特定值预警已发送: {current_dvol:.2f} 接近 {matched_specific_value}")
+        
         # 绝对数值预警
         if should_alert_abs_value:
             alert_key = "dvol_abs_value"
